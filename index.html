@@ -1,234 +1,39 @@
 <!DOCTYPE html>
-<html lang="sp">
+<html lang="en">
     <head>
         <meta charset="UTF-8">
-        <link rel="stylesheet" href="style.css">
-        <title>Mi Primera Página</title>
-        <!-- <link rel="shortcut icon" href="storage/fotoperfil.ico" type="image/x-icon"> -->
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="css/style.css">
+        <title>Document</title>
     </head>
     <body>
-        <h1>¡Bienvenidos!</h1>
-            <p>En esta página web podrán encontrar informacion breve sobre mí tal como: informacion personal, academica y laboral.</p>
-        <h2>Informacio personal</h2>
-            <a href="storage/datosPersonales.json" target="_blank" rel="noopener noreferrer">informacion personal</a>
-        <h2>formacion academica</h2>
-            <a href="storage/datosAcademicos.json" target="_blank" rel="noopener noreferrer">formacion academica</a>
-        <h2>Experiencia laboral</h2>
-            <a href="storage/datosLaboral.json" target="_blank" rel="noopener noreferrer">Experiencia laboral</a>
-        <H2> Ejercicio Imagenes</H2>
-            <ul>
-                <li><a href="#1">imagen 1</a></li>
-                <li><a href="#2">imagen 2</a></li>
-                <li><a href="#3">imagen 3</a></li>
-                <li><a href="#4">imagen 4</a></li>
-                <li><a href="#5">imagen 5</a></li>
-
-            </ul>
-            <h3 id="1">Imagen 1</h3>
-                <picture>
-                    <source media="(min-width: 500px )" srcset="storage/1.jpeg" width="700px" >
-                    <img src="" alt="No se econtró" title="Audi R8">
-                </picture>
-            <h3 id="2">Imagen 2</h3>
-                <picture>
-                    <source media="(min-width: 500px )" srcset="storage/2.jpeg" title="Ford Mustang">
-                    <img src="" alt="No se econtró" title="Ford Mustang">
-                </picture>
-            <h3 id="3">Imagen 3</h3>
-                <picture>
-                    <source media="(min-width: 500px)" srcset="storage/3.jpeg">
-                    <img src="" alt="No se econtró" title="McLaron P1">
-                </picture>
-            <h3 id="4">Imagen 4</h3>
-                <picture>
-                    <source media="(min-width:500px )" srcset="storage/4.jpeg">
-                    <img src="" alt="No se econtró" title="Carro Futurista">
-                </picture>
-            <h3 id="4">Imagen 5</h3>
-                <picture>
-                    <source media="(min-width:500px )" srcset="storage/5.jpeg">
-                    <img src="" alt="No se econtró" title="Bosque Boscoso">
-                </picture>
-        <table border="solid">
-            <thead>
-                <tr>
-                    <td>id</td>
-                    <td>index</td>
-                    <td>guid</td>
-                    <td>isActive</td>
-                    <td>balance</td>
-                    <td>picture</td>
-                    <td>age</td>
-                    <td>eyeColor</td>
-                    <td>name</td>
-                    <td>gender</td>
-                    <td>company</td>
-                    <td>email</td>
-                    <td>phone</td>
-                    <td>addres</td>
-                    <td>about</td>
-                    <td>registered</td>
-                    <td>latitud</td>
-                    <td>longitud</td>
-                    <td>tags</td>
-                    <td>friends</td>
-                    <td>greeting</td>
-                    <td>favoriteFruit</td>
-
-                </tr>
-            </thead>
-            <tbody>
-                <tr>
-                    <td>65a91fee68576587b3ab7aa1</td>
-                    <td> 0</td>
-                    <td>f4e26a01-bb4c-4477-93b7-8e399da8643c</td>
-                    <td>true</td>
-                    <td> $1,146.25 </td>
-                    <td> <img href="http://placehold.it/32x32" target="_blank" alt="http://placehold.it/32x32"></IMG></td>
-                    <td> 31</td>
-                    <td> blue </td>
-                    <td> Rita Elliott</td>
-                    <td> female</td>
-                    <td> IMPERIUM</td>
-                    <td> ritaelliott@imperium.com</td>
-                    <td> +1 (835) 526-2886</td>
-                    <td> 587 Bedford Place, Springhill, Pennsylvania, 289</td>
-                    <td> Sint ea cillum fugiat nostrud exercitation adipisicing quis esse veniam tempor aliquip reprehenderit ipsum minim. Duis sunt ullamco do non. Laboris officia est Lorem pariatur aute excepteur officia cillum proident tempor commodo magna deserunt Lorem. Sint laboris laborum commodo cupidatat dolore adipisicing culpa amet. Nulla ad pariatur pariatur esse dolor dolor ullamco non anim esse nisi cillum.\r\n"</td>
-                    <td> 2018-04-05T12:34:52 +05:00</td>
-                    <td> -13.515649</td>
-                    <td> -61.415535</td>
-                    <td>
-                        <dl>
-                            <ul>
-                                <li>est</li>
-                                <li>consequat</li>
-                                <li>voluptate</li>
-                                <li>in</li>
-                                <li>mollit</li>
-                                <li>pariatur</li>
-                                <li>velit</li>
-                            </ul>
-                        </dl>
-                    </td>
-                    <td>
-                        <ul>
-                            <li>
-                                <dl>
-                                    <ol>
-                                        <li>id
-                                            <ul>0</ul>
-                                        </li>
-                                        <li>name
-                                            <ul>Janie Byers</ul>
-                                        </li>
-                                    </ol>
-                                </dl>
-                            </li>
-                            <li>
-                                <dl>
-                                    <ol>
-                                        <li>id
-                                            <ul>1</ul>
-                                        </li>
-                                        <li>name
-                                            <ul>Bowers Harper</ul>
-                                        </li>
-                                    </ol>
-                                </dl>
-                            </li>
-                            <li>
-                                <dl>
-                                    <ol>
-                                        <li>id
-                                            <ul>2</ul>
-                                        </li>
-                                        <li>name
-                                            <ul>SDixon Page</ul>
-                                        </li>
-                                    </ol>
-                                </dl>
-                            </li>
-                        </ul>
-                    </td>
-                    <td> Hello, Rita Elliott! You have 1 unread messages.</td>
-                    <td> apple</td>
-                </tr>
-                <tr>
-                    <td>65a91fee6358989762dcb207</td>
-                    <td>1</td>
-                    <td>b4908048-01d1-4910-883e-75512a41f872</td>
-                    <td>false</td>
-                    <td> $1,217.76 </td>
-                    <td> <img href="http://placehold.it/32x32" target="_blank" alt="http://placehold.it/32x32"></IMG></td>
-                    <td> 24</td>
-                    <td> brown </td>
-                    <td> Jeannine Valencia</td>
-                    <td> female</td>
-                    <td> QIAO</td>
-                    <td> jeanninevalencia@qiao.com</td>
-                    <td> +1 (818) 577-2234</td>
-                    <td>612 Brigham Street, Brookfield, Massachusetts, 2424</td>
-                    <td> Eu consequat ipsum amet reprehenderit reprehenderit aliqua eu. Non anim ullamco exercitation cillum cupidatat eiusmod sint officia cupidatat id dolor officia dolore ea. Culpa deserunt adipisicing officia sit in sit. Culpa nostrud laboris commodo labore irure. Pariatur velit aliqua amet voluptate do cupidatat aliquip amet veniam esse pariatur labore. Eu occaecat incididunt nulla incididunt. Adipisicing consectetur reprehenderit ex et ullamco.\r\n</td>
-                    <td> 2021-11-04T08:20:46 +05:00</td>
-                    <td> 24.434721</td>
-                    <td>-158.88911</td>
-                    <td>
-                        <dl>
-                            <ul>
-                                <li>eu</li>
-                                <li>dolor</li>
-                                <li>pariatur</li>
-                                <li>eismod</li>
-                                <li>sunt</li>
-                                <li>velit</li>
-                                <li>non</li>
-                            </ul>
-                        </dl>
-                    </td>
-                    <td>
-                        <ul>
-                            <li>
-                                <dl>
-                                    <ol>
-                                        <li>id
-                                            <ul>0</ul>
-                                        </li>
-                                        <li>name
-                                            <ul>Bartlett Valenzuela</ul>
-                                        </li>
-                                    </ol>
-                                </dl>
-                            </li>
-                            <li>
-                                <dl>
-                                    <ol>
-                                        <li>id
-                                            <ul>1</ul>
-                                        </li>
-                                        <li>name
-                                            <ul>Shannon Lowery</ul>
-                                        </li>
-                                    </ol>
-                                </dl>
-                            </li>
-                            <li>
-                                <dl>
-                                    <ol>
-                                        <li>id
-                                            <ul>2</ul>
-                                        </li>
-                                        <li>name
-                                            <ul>Salazar Mcguire</ul>
-                                        </li>
-                                    </ol>
-                                </dl>
-                            </li>
-                        </ul>
-                    </td>
-                    <td> Hello, Jeannine Valencia! You have 1 unread messages.</td>
-                    <td> strawberry</td>
-                </tr>
-            </tbody>
-        </table>
+        <div class="container">
+            <div class="box">1
+                <div class="box1">
+                    soy un texto
+                </div>
+            </div>
+            <div class="box">2
+                <div class="box2_1">
+                    soy un texto 1
+                </div>
+                <div class="box2_2">
+                    soy un texto 2
+                </div>
+            </div>
+            <div class="box">3
+                <div class="box3">
+                    soy un texto
+                </div>
+            </div>
+            <div class="box">4
+                <div class="box4_1">
+                    soy un texto
+                </div>
+                <div class="box4_2">
+                    soy un texto
+                </div>
+            </div>
+        </div>
     </body>
 </html>
