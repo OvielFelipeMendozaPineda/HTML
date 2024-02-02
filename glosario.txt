@@ -50,3 +50,43 @@ para tablas se usa 'thead' para especificar la cabeza de la tabla donde va el ti
 'id=""' asigna un id.
 
 
+-------------------------------------------------------------------------------------------
+Glosario CSS
+
+-Dimensiones-
+width: especifica el ancho de la etiqueta.
+heigh: especifica el largo de la etiqueta.
+margin: es el margen que tendra la caja con respecto a otras cajas. 
+padding: es el espacio que tendra el contendido con respecto a los border de la caja que lo contiene
+border: asigna o elimina el borde de cualquier caja contenedora.
+position: recibe como valores {
+    absolute: permite mover la caja por todo el documento y no tiene un espacio asignado por lo que las demas cajas ocuparan su espacio.
+    relative: a diferencia del 'absolute' este si reserva el espacio de la caja aunque no se encuentre en su posicion inicial.
+    fixed: Fija la caja en una posicion y no permite moverla, igual si se hace scroll, ahi aparecera siempre en pantalla.
+}
+
+display: Establece el tipo de visualizacion de las cajas en el contenido {
+    block: muestra lsa cajas como bloques en linea
+    flex: permite un muestreo flexible de las cajas. Es usado mayormente para monodimensiones{
+        flex-direction: permite configurar la direccion de las cajas ya sea {
+            column - columnas
+            column-reverse -- columnas invertidas
+            row - filas
+            row-reverse -- filas invertidas
+        }
+        justify-content: permite posicionar todas las cajas de forma rapida en el eje X{
+            flex-start: las ubica al inicio del contenedor tipo flexible
+            flex-ened: las ubica al final del contenedor tipo flexible
+            center: las ubica al al centro del contenedor:
+            space-around: las ubica con un mismo espaciado entre bordes y contenedores
+            space-between: las ajusta al maximo espacio posible entre cajas y al minimo entre bordes del contenedor:
+        }        
+        align-items: permite posicionar todas las cajas de forma rapida en el eje y{
+            flex-start: las ubica al inicio del contenedor tipo flexible
+            flex-ened: las ubica al final del contenedor tipo flexible
+            center: las ubica al al centro del contenedor:           
+        }
+    grid: permite las estructuracion mediante filas y columnas en una pagina web.
+    }
+}
+

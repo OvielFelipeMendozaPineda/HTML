@@ -29,6 +29,7 @@ body{
   border: 2px dotted #ff0000;
   display: grid;
   place-content: center;
+  position: ;
 
 }
 .box:nth-child(1){
@@ -49,6 +50,7 @@ body{
 }
 
 .box:nth-child(3){
+
   position: absolute;
   margin: auto;
   top: 0;
