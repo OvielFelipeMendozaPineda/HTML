@@ -1,0 +1,52 @@
+Glosario HTML
+
+
+--------------Estructura bàsica---------------
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Document</title>
+    </head>
+    <body>
+        
+    </body>
+</html>
+---------------Etiquetas-----------------------
+--------Documento HMTL--------
+la etiqueta '<head></head>' contiene todas las etiquetas que no se veran en el documento a excepcion de la etiqueta '<title></title>' es es el titulo del documento. A parte tambien contiene metadatos, links de hojas de estilo y scripts de JavaScript
+la etiqueta '<body></body>' contiene todas las etiquetas que se veran dentro de la pagina, ya sean titulos, párrafos o imagenes.
+--------Titulos---------------
+h1, h2, h3, h4 ,h5 ,h6:
+Cada etiqueta 'h' se usa como titulos de cada sección. Solo debe ir un 'h1' en toda la página  web.
+--------Párrafos--------------
+Para párrafos se usa la etiqueta '<p></p>'
+--------links-----------------
+Para links, internos o externos, se usa '<a href=""></a>'
+--------Multimedia------------
+----imagenes----
+La etiqueta '<img src="" alt="">' se usa para mostrar imagenes en el htm.
+---videos---
+para videos se usa '<video src=""></video>
+---Audios---
+para audios se usa '<audio src="" type=""></audio>' 
+-----contenedores---
+La etiqueta '<div></div>'  se utiliza como un contenedor para agrupar elementos en una página. Tambien existe '<section></section>' que es para secciones, '<nav></nav>' para guardar especificamente la barra de navegacion, '<header></header>' para especificar al html que es la cabeza de la página, '<article></article>' para articulos y '<footer></footer>' pára el pie de página.
+-------listas-------
+---ordenada----
+para listas ordernadas se usa '<ol></ol>' el cual contiene '<li></li>' para poner los items de la lista.
+---desordenada----
+En este solo cambia la etiqueta 'ol' por '<ul></ul>'.
+---Formularios----
+Se usa '<form></form>' y se combina con '<ul></ul>' y la etiqueta '<input>' que recibe entradas de texto.
+
+--------Tablas-----------
+para tablas se usa 'thead' para especificar la cabeza de la tabla donde va el titulo y en 'tbody' se estructura la tabla. Se usa 'tr' que es la fila de la tabla, esta va en orden y dentro de 'tr' se pone 'td' que es cada columna de esa fila'.
+
+
+-------------identificadores------------
+'class="" ' -- asigna una clase a la etiqueta.
+'id=""' asigna un id.
+
+
